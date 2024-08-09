@@ -29,6 +29,7 @@ make
 
 ## Display Drive Information
 ./fat32 <disk_image> info
+
 Output:
 Drive name
 Free space on the drive in KB
@@ -37,6 +38,7 @@ Cluster size in sectors and KB
 
 ## List Files and Directories
 ./fat32 <disk_image> list
+
 Output:
 Tree-like structure of directories and files on the drive.
 Example:
@@ -49,6 +51,7 @@ file2.txt
 
 ## Fetch a File
 ./fat32 <disk_image> get <path/to/file.txt>
+
 Output:
 The specified file is written to the current working directory.
 

@@ -1,13 +1,3 @@
-//------------------------------------------------
-///// NAME: Victor Ezendu 
-///// STUDENT NUMBER: 7856953
-///// COURSE: COMP 3430, SECTION: A01
-///// INSTRUCTOR: Robert Guderian
-///// ASSIGNMENT: 3, QUESTION: 1
-///// 
-///// REMARKS:reading fat32 volume
-/////----------------------------------------------
-
 #define _FILE_OFFSET_BITS 64
 #include <stdio.h>
 #include<stdlib.h>

@@ -40,13 +40,21 @@ Cluster size in sectors and KB
 ./fat32 <disk_image> list
 
 Output:
+
 Tree-like structure of directories and files on the drive.
+
 Example:
+
 file.txt
+
 Directory: FOLDER
+
 -Directory: FOLDER2
+
 --Directory: FOLDER3
+
 ---File: THEFILE.TXT
+
 file2.txt
 
 ## Fetch a File
